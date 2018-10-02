@@ -1,5 +1,4 @@
 ---
-- include_tasks: repartition.yml
 - include_tasks: update_everything.yml
 - include_tasks: packages.yml
 - include_tasks: make_swap.yml
