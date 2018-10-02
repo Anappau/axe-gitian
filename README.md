@@ -57,7 +57,7 @@ Make sure VirtualBox, Vagrant and Ansible are installed, and then run:
 
     vagrant up --provision axe-build
 
-This will provision a Gitian host virtual machine that uses a Linux container (LXC) guest to perform the actual builds.
+This will provision a Gitian host virtual machine that uses LXC/KVM/Docker to perform the actual builds.
 
 Use `git stash` to save one's local customizations to `gitian.yml`.
 
