@@ -23,6 +23,7 @@ fi
 
 export DISTRO=ubuntu
 export SUITE=bionic
+alias gpg='gpg2'
 export ARCH=amd64
 export USE_LXC=1
 export LXC_BRIDGE=br0
